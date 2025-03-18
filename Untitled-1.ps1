@@ -12,5 +12,5 @@ if (Test-Path $folderPath) {
         Write-Output "Fichier supprimé : $($file.FullName)"
     }
 } else {
-    Write-Output "Le dossier spécifié n'existe pas."
+    Write-Output "oui"
 }
